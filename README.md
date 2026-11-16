@@ -1,14 +1,13 @@
 # fplib
 
-Library Python bergaya **pemrograman fungsional** untuk tugas mata kuliah
-Pemrograman Fungsional, Informatika UMM.
+Library Python bergaya **pemrograman fungsional** untuk tugas mata kuliah Pemrograman Fungsional, Informatika UMM.
 
 ## Anggota Kelompok
 
 | Nama | NIM | Tugas |
 |---|---|---|
-| Figa Brilliant Daffa | 202410370110424 | fplib.py, test, App 1-2 |
-| Dicky Ihsan Novanda | 202410370110426| App 3-5, dokumentasi |
+| Figa Brilliant Daffa | 202410370110424 | `fplib.py`, `test_fplib.py`, dokumentasi, App 1-2 |
+| Dicky Ihsan Novanda | 202410370110426 | App 3-5 |
 
 ## Isi Repositori
 
@@ -16,6 +15,7 @@ Pemrograman Fungsional, Informatika UMM.
 - `test_fplib.py` - unit test dengan pytest
 - `app_*.py` - 5 aplikasi yang memakai library
 - `docs/DOKUMENTASI.md` - daftar fungsi dan matriks penggunaan
+- `docs/WORKFLOW.md` - panduan kerja kelompok (branch, PR, dan pembagian tugas)
 - `.github/workflows/ci.yml` - CI otomatis menjalankan test dan semua aplikasi
 
 ## Persyaratan
@@ -26,8 +26,8 @@ Pemrograman Fungsional, Informatika UMM.
 ## Instalasi
 
 ```bash
-git clone https://github.com/USERNAME/fplib-umm.git
-cd fplib-umm
+git clone https://github.com/figadafa/Fplib.git
+cd Fplib
 pip install -r requirements.txt
 ```
 
@@ -61,4 +61,4 @@ print(format_rupiah(jumlah(harga)))   # Rp 19.000
 | Keuangan Pribadi | `app_keuangan_pribadi.py` | ambil, jumlah, kelompokkan, rata_rata, tambah, urutkan, format_rupiah |
 | Nilai Mahasiswa | `app_nilai_mahasiswa.py` | ambil, rata_rata, peringkat, urutkan |
 
-Detail lengkap ada di [docs/DOKUMENTASI.md](docs/DOKUMENTASI.md).
+Detail lengkap ada di [docs/DOKUMENTASI.md](docs/DOKUMENTASI.md). Panduan kerja kelompok ada di [docs/WORKFLOW.md](docs/WORKFLOW.md).
